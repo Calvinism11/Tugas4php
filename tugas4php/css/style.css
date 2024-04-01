@@ -1,0 +1,116 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    color: tomato;
+    text-shadow: 1px 1px 4px blue;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.home_container {
+    text-align:left;
+    justify-content: left;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+/* CSS header */
+img#nime {
+    width: 100%;
+}
+
+/* CSS navigasi */
+table#nav {
+    text-align: center;
+    width: 25%;
+}
+
+td#nav:hover {
+    background-color: rgb(192, 255, 196);
+}
+
+/* CSS home */
+body.home:hover {
+    background-color: rgb(50, 63, 52);
+    color: white;
+    text-shadow: 1px 1px 4px rgb(53, 161, 233);
+}
+
+.photo {
+    width:auto;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.photo {
+    border-radius: 10px;
+}
+
+/* CSS mystudy */
+table {
+    border-radius: 5px;
+}
+
+table:hover {
+    border-color: white;
+}
+
+th:hover {
+    background-color: rgb(66, 233, 150);
+    color: rgba(206, 244, 136, 0.482);
+}
+
+body.study:hover {
+    background-color: rgb(63, 50, 50);
+    color: white;
+}
+
+td#study {
+    text-align: center;
+}
+
+/* CSS galery */
+body#gallery:hover {
+    color: white;
+    background-color: rgb(59, 71, 66);
+}
+img#gallery {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 160px;
+}
+
+img#gallery:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+/* CSS sosmet & materi */
+li {
+    color: red;
+}
+
+li:hover {
+    background-color: rgb(192, 222, 255);
+    text-decoration: solid;
+}
+
+/* CSS footer */
+footer {
+    background-color: #b7bcd1;
+    padding: auto;
+}
+
+footer:hover {
+    background-color: rgb(109, 192, 99);
+    color: white;
+}
